@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Functionaltestingsuit]" parallel="tests">
+  <parameter name="Wbsite" value="https://www.facebook.com"/>
+  <test thread-count="6" name="RegressiontestingEdge(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Capstone.AutomationPractice4.TextOfVerification">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="signin"/>
+          <include name="Browsers"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Capstone.AutomationPractice4.TextOfVerification -->
+    </classes>
+  </test> <!-- RegressiontestingEdge(failed) -->
+</suite> <!-- Failed suite [Functionaltestingsuit] -->
